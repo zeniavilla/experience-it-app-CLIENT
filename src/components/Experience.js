@@ -17,7 +17,7 @@ const Experience = props => {
 
     return (
         <div>
-            <Col xs={2}>
+            <Col md={2}>
             <NavLink to={`/experiences/${id}`}>
                 <div className="experience-card" id={`experience-${id}`} key={id}>
                     <Grid className="experience-img-wrapper" style={backgroundStyle} fluid></Grid> 
